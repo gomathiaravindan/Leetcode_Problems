@@ -1,3 +1,13 @@
+##Print the given as zigzag conversion.
+Sample Case:Input PAYPALISHIRING
+rows = 3
+Output PAHNAPLSIIGYIR
+
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
