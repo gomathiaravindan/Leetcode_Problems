@@ -1,3 +1,13 @@
+##Print the output for the given string
+Sample Case: Input PAYPALSHIRING
+Enter the number of rows: 3 (only accepted)
+Output PAHNAPLSIIGYIR
+
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
