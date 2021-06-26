@@ -1,15 +1,17 @@
 
-
 int reverse(int x){
 
-    long rev=0;
-    while(x!=0){
-        rev=rev*10+x%10;
-        x=x/10;
+    long long int sum = 0,rem;
+    
+    while(x != 0)
+    {
+        rem = x % 10;
+        sum = sum * 10 + rem;
+        x/=10;
     }
-    if(rev>=-INT_MAX && rev<=INT_MAX){
-        return rev;
-    }
-    return 0;
+    
+    if(sum >= -pow(2,31) && sum <= pow(2,31))
+        return sum;
+    else
+        return 0;
 }
-
