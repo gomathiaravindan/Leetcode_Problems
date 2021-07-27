@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+#include<stdlib.h>
 #define max 30
 signed int stack[30];
 void push(int);
