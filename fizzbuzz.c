@@ -27,5 +27,5 @@ char ** fizzBuzz(int n, int* returnSize){
             sprintf(&str[i-1][0] ,"%i",i);
         }
     }
-    return &str[0];
+    return str[0];
 }
